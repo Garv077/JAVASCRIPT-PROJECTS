@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src ="pass.js"></script>
+    <style>
+        #mainContain{
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            height: 400px ;
+            background-color: #414141;
+            align-items: center;
+
+            }
+            #Screen{
+                width:200px;
+                height: 22px;
+                background-color: aquamarine;
+                border:2px solid black;
+                
+            }
+            #geneButton{
+                margin-top: 18px;
+                width: 150px;
+                height: 22px;
+                border: 2px solid black;
+                border-radius: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    }
+                 
+
+    </style>
+</head>
+<body>
+ <div id="mainContain">
+    <h1 id="heading">PASSKEY GENERATOR</h1>
+    <div id="Screen"></div>
+    <button onclick=genePass() id="geneButton">GENERATE PASS</button>
+    
+ </div>
+</body>
+</html>

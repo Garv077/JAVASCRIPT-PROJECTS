@@ -1,0 +1,26 @@
+
+h1{
+    text-align:center
+}
+
+.button{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+#red{
+background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}
+#blue{
+    background-color: blue;
+}
